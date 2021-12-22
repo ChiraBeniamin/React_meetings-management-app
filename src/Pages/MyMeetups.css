@@ -1,0 +1,173 @@
+.new-meetup-container {
+  width: 350px;
+  border: 0px solid black;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  overflow-wrap: break-word;
+}
+
+.new-meetup-container:hover {
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.new-meetup-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+
+  color: rgb(0, 50, 83);
+  margin-bottom: 10px;
+}
+
+.new-meetup-container h3 {
+  font-size: 30px;
+
+  color: rgb(0, 50, 83);
+  margin-bottom: 0px;
+}
+
+.new-meetup-container p {
+  color: rgb(0, 50, 83);
+  margin-top: 10px;
+}
+
+.myMeetups-body {
+  height: 100%;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  color: none;
+  border: 0px;
+  flex-direction: column;
+}
+
+.add-favorites {
+  height: 60px;
+  width: 95px;
+  border-radius: 25px;
+  border: 2px solid rgb(0, 50, 83);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  color: rgb(224, 28, 14);
+  /* color: rgb(110, 7, 0); */
+  cursor: pointer;
+  transition: 0.5s ease;
+  overflow: hidden;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.add-favorites:hover {
+  background-color: rgb(0, 50, 83);
+  /* color: rgb(228, 79, 68); */
+  color: rgb(255, 17, 0);
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.delete-btn {
+  height: 60px;
+  width: 95px;
+  border-radius: 25px;
+  border: 2px solid rgb(0, 50, 83);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  /* color: rgb(110, 7, 0); */
+  color: rgb(224, 28, 14);
+  cursor: pointer;
+  transition: 0.5s ease;
+  overflow: hidden;
+  padding: 5px;
+  margin-top: 15px;
+  padding-top: 0;
+}
+
+.delete-btn:hover {
+  background-color: rgb(0, 50, 83);
+  /* color: rgb(228, 79, 68); */
+  color: rgb(255, 17, 0);
+}
+.cancel-btn {
+  height: 40px;
+  width: 95px;
+  border-radius: 25px;
+  border: 2px solid rgb(65, 133, 179);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.5s ease;
+  overflow: hidden;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.yes-btn {
+  height: 40px;
+  width: 85px;
+  border-radius: 25px;
+  border: 2px solid rgb(65, 133, 179);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.5s ease;
+  overflow: hidden;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.modal-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.modal-text {
+  color: aliceblue;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+/* 
+.myMeetupContainer {
+  background-color: antiquewhite;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 55px;
+  height: fit-content;
+} */
+
+/* .myMeetupContainer div { */
+/* background-color: antiquewhite; */
+/* margin-bottom: 15px; */
+/* text-align: center; */
+/* color: rgb(9, 3, 24); */
+/* font-size: 25px; */
+/* } */
+/* 
+.myMeetupContainer h2 {
+  margin: 0;
+} */

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap");
+@import "react-date-picker/dist/DatePicker.css";
+
+body {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  /* background-image: url("../src/Assets/body.background.jpg"); */
+  background-image: url("../src/Assets/Background.2.jpg");
+  /* background-image: url("/src/Assets/background.3.jpg"); */
+  height: 100%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

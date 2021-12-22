@@ -1,0 +1,19 @@
+.favorite-p {
+  color: aliceblue;
+  height: 100px;
+}
+
+.favorites-h1 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.btn-container-favorites {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}

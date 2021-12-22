@@ -1,0 +1,107 @@
+/* .container div:hover {
+  background-color: antiquewhite;
+} */
+
+.add-new-meetup-container {
+  width: 50%;
+  border: 0px solid black;
+  margin: 0 auto;
+  /* background-color: #78909c; */
+  background-color: #757575;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  overflow-wrap: break-word;
+}
+.add-new-meetup-container div {
+  border-radius: 15px;
+  /* border: none; */
+}
+
+.add-new-meetup-container h1 {
+  text-align: center;
+  /* color: rgb(0, 50, 83); */
+  /* color: white; */
+  flex: auto;
+  font-size: 50px;
+  color: #263238;
+}
+
+/* input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: none;
+  border-bottom: 3.5px solid rgb(0, 50, 83);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+} */
+
+label {
+  font-weight: bold;
+  font-size: 25px;
+  /* color: rgb(0, 50, 83); */
+  color: white;
+  /* color: rgb(21, 31, 73); */
+}
+
+textarea {
+  border: 2.5px solid rgb(0, 50, 83);
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.add-button {
+  margin: 0 auto;
+  /* margin-left: 41%; */
+  height: 60px;
+  width: 95px;
+  border-radius: 25px;
+  /* border: 1px solid #1a6583; */
+  border: 2px solid rgb(0, 50, 83);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  /* color: #1a6583; */
+  color: rgb(0, 50, 83);
+  cursor: pointer;
+  transition: 0.5s ease;
+  overflow: hidden;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+button:hover {
+  /* background-color: #1a6583; */
+  background-color: rgb(0, 50, 83);
+  color: antiquewhite;
+}
+
+.date-picker {
+  border: 2px solid black;
+}
+
+.react-date-picker_wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: thin solid rgb(255, 9, 9);
+}
